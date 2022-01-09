@@ -1,0 +1,52 @@
+body {
+    font-family: Helvetica, sans-serif;
+max-width: 600px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-space{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(255, 0, 106);
+    color:white;
+    border-radius: 6px;
+    align-items: center;
+    justify-items: center;
+}
+.name{
+    grid-column: 2/4;
+    grid-row: auto;
+}
+.main-section{display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+
+.heading{
+    text-align: center;
+    border-style: groove;
+}
+.list-items,a{
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 6px;
+
+}
+footer{    
+    background-color: rgb(255, 0, 106);
+    border-radius: 6px;
+    color: white;
+    grid-column: 1/2;
+    text-align: center;    
+}
+#lastmod{
+    font-style: italic;
+    font-size: small;
+}
