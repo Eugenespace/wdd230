@@ -1,11 +1,15 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: Montserrat,sans-serif;
+    /* font-family: Helvetica, sans-serif; */
     max-width: 600px;
     margin:auto;
 
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    margin:0;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .header-space{
@@ -13,7 +17,7 @@ h1,h2,h3,h4,h5,h6{
     grid-template-columns: 1fr 1fr 1fr;
     background-color: rgb(8, 7, 27);
     color:white;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     align-items: center;
     justify-items: center;
 }
@@ -43,7 +47,7 @@ img{
 }
 footer{    
     background-color: rgb(8, 7, 27);
-    border-radius: 6px;
+    /* border-radius: 6px; */
     color: white;
     grid-column: 1/2;
     text-align: center;    

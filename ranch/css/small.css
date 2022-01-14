@@ -1,0 +1,120 @@
+
+*{-moz-box-sizing:border-box;
+    -webkit-box-sizing: border-box;box-sizing: border-box;
+}
+
+/* body rules here */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+/* header rules here */
+header{
+    background-color: #17a8e4;
+    padding:1rem 2%;
+}
+ header h1{
+     margin: 0;
+
+ }
+
+ header h2{
+     margin: 0;
+
+ }
+ /* nav rules here */
+ nav{
+     background-color: #111;
+ }
+ nav ul{
+     margin:0;
+     padding: 0;
+ }
+ nav li{list-style-type: none;}
+ nav li.active{background-color: #444;}
+
+nav a{
+    display: block;
+    padding: .8rem 0;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover {background-color: #444;}
+
+
+/* main rules here */
+main{
+    padding: 1rem 2%;
+    display: block;
+}
+main h1{color:#17a8e4;}
+
+main figure img {width: 100%;}
+main figure {width:100%;
+margin:0;}
+main figcaption{ text-align: center;font-size: .8rem;}
+
+footer{
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: #17a8e4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+header,footer{
+    text-align: center;
+    
+    background-color: rgb(116, 3, 116);
+
+}
+footer{color: rgb(233, 233, 33);}
+h1{
+    font-size: 1em;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:yellow;
+    text-align: center;
+}
+.event_color{
+    color: red
+}
+
+h2{color: yellow;
+    /* text-align: center; */
+/* }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+}
+
+img{width: 100px;
+    height:auto; */
+
