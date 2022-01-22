@@ -4,5 +4,15 @@
         display: flex;
     }
     nav ul li{flex-basis: 25%;}
+    header img{
+        width: auto;
+        height: auto;
+        padding:auto;
+       
+       
+    }
+    header h1{
+        font-size: 2rem;}
+    
 }
     

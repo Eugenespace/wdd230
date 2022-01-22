@@ -1,9 +1,17 @@
 @media only screen and (min-width: 1028px) {
 
-    header,footer,nav,main{max-width: 75rem;
+    header,footer,nav,section {max-width: 75rem;
     margin:auto}
     
     nav ul {padding-left: 2%;}   
     nav ul li{flex-basis: auto;} 
-    nav a{padding: .5rem 1rem;}       
+    nav a{padding: .5rem 1rem;} 
+    
+    header img{
+        width: auto;
+        height: auto;
+        padding:auto;
+    }
+    header h1{
+        font-size: 2.5rem;}
 }    

@@ -6,11 +6,28 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     
+    
 }
 header{
-    background-color: aquamarine;
+    background-color: rgb(139, 10, 231);
     display: block;
     text-align: center;
+    padding: 10px;
+}
+header h1{
+    font-size: 1rem;
+}
+header img{
+    width: 150px;
+    height: 40px;
+    float: left;
+    /* margin-bottom: 20px; */
+    padding: 0px;
+}
+
+nav{
+    background-color: cornsilk;
+    padding:10px;
 }
 nav ul li{
     flex: auto;
@@ -25,4 +42,26 @@ nav a{
     padding: .8rem 0;
 
 }
-a{display:flexbox;}
+
+nav ul li a:hover {
+    background-color: #aaa;
+    color: #333;
+}
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;}
+section{
+    margin:0px;
+}
+section h1{
+    text-align: center;
+}
+section ul li{
+  
+    list-style-type: none;
+}
+footer{
+    padding:10px;
+    background-color: cornsilk;
+    text-align: center;
+}
