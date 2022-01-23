@@ -1,18 +1,18 @@
-@media only screen and (min-width:560px){
+@media only screen and (min-width:35rem){
 
-    nav ul{
-        display: flex;
-    }
+      nav ul{
+        display: flex; 
+     }
     nav ul li{flex-basis: 25%;}
-    header img{
-        width: auto;
-        height: auto;
-        padding:auto;
+     header img{
+        width: 200px;
+        height: 100px;
+        padding:auto; 
        
        
-    }
+ } 
     header h1{
-        font-size: 2rem;}
-    
-}
+        font-size: 2rem;} 
+     
+    }
     
