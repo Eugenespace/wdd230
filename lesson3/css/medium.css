@@ -4,11 +4,7 @@
         display: flex; 
      }
     nav ul li{flex-basis: 25%;}
-     header img{
-        /* width: 200px;
-        height: 100px; */
-        /* padding:auto;  */
-       
+     
        
  } 
     header h1{
