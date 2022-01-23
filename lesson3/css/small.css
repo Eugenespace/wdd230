@@ -56,6 +56,15 @@ section{
 section h1{
     text-align: center;
 }
+section figure img{
+    width: 150px;
+    margin-left: -40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
 section ul li{
   
     list-style-type: none;
