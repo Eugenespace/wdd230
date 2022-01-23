@@ -12,15 +12,17 @@ header{
     background-color: rgb(139, 10, 231);
     display: block;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
 }
 header h1{
     font-size: 1rem;
 }
 header img{
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 150px;
     float: left;
+    top: -40px;
+    position: relative;
     /* margin-bottom: 20px; */
     /* padding: 10px; */
 }
@@ -65,7 +67,7 @@ section h1{
 
 } */
 figure img{
-    width: 150px;
+    width: 200px;
     margin-left: -40px;
     border: 1px solid #ddd;
     border-radius: 4px;
