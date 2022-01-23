@@ -2,10 +2,12 @@
 
     header,footer,nav,section {max-width: 65rem;
     margin:auto}
-    
+    nav ul{
+        display: flex; 
+     }
     nav ul {padding-left: 2%;}   
     nav ul li{flex-basis: auto;} 
-    nav a{padding: .5rem 1rem;}  */
+    nav a{padding: .5rem 1rem;}  
     
     
     header h1{
