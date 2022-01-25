@@ -58,6 +58,11 @@ section{
 section h1{
     text-align: center;
 }
+
+main{
+  
+    margin:0px;
+}
 /* section figure img{
     width: 150px;
     margin-left: -40px;
@@ -73,6 +78,9 @@ figure img{
     border-radius: 4px;
     padding: 5px;
 
+}
+ul{
+    padding-left: 0px;
 }
 section ul li{
   
