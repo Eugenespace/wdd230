@@ -12,10 +12,11 @@
     }
     main{
         display: grid;
-        
-     
-        
+        grid-template-columns: 1fr 1fr;
+          
     }
-    
+    section:nth-child(7)  {
+        grid-column: 1/3;
+    }
     
     }

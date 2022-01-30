@@ -7,12 +7,12 @@ const lastmod = document.querySelector("#lastmod");
 lastmod.textContent = `Last updated at ${document.lastModified}`;
 document.getElementById("current_year").innerHTML = year;
 const fulldateUK = new Intl.DateTimeFormat("en-UK",{dateStyle: "full"}).format(d);
-document.querySelector("currentdate").textContent = fulldateUK;
+document.querySelector(".currentdate").textContent = fulldateUK;
 
 function toggleMenu(){
-	document.getElementById("primaryNav").classList.toggle("open")
-    document.getElementById("hamburgerbttn").classList.toggle("open")
+	document.getElementById("#primaryNav").classList.toggle("open")
+    document.getElementById("#hamburgerbttn").classList.toggle("open")
 }
 
-const x  = document.getElementById("hamburgerbttn")
+const x  = document.getElementById("#hamburgerbttn");
 x.onclick = toggleMenu;
