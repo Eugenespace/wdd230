@@ -6,8 +6,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 body{
     font-family: 'Montserrat', sans-serif;
-   font-size: 1rem;
-   min-width: 320px;
+    font-size: 1rem;
+    margin:0 auto;
+    width: fit-content;
 }
 h1,p{margin:0 ;}
 header{
@@ -50,7 +51,7 @@ header nav ul li a{
 }
 
 header nav ul li.active a{
-    color: #fff;
+    color: rgb(232, 10, 10);
 }
 
 nav ul li a:hover{
