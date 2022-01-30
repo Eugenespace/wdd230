@@ -4,6 +4,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #B9DAEC;
+    --secondary-color: #CD127C;
+    --accent1-color: #E51C3D;
+    --accent2-color: #FFFFFF;
+    
+  }
+
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -12,7 +21,7 @@ body{
 }
 h1,p{margin:0 ;}
 header{
-    background-color: #F2C078;
+    background-color:#B9DAEC;
 }
 header img{
     width: 100px;
@@ -24,7 +33,7 @@ header h1,h2, p{
     
 }
 header nav{
-    background-color:#FAEDCA;
+    background-color:#CD127C;
 }
 
 header nav button{
@@ -44,18 +53,18 @@ header nav ul li a{
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color:#333;
+    color:#FFFFFF;
     border-top:  1px solid rgba(0,0,0,0.5);
     text-align: center;
 
 }
 
 header nav ul li.active a{
-    color: rgb(232, 10, 10);
+    color: #110f0f;
 }
 
 nav ul li a:hover{
-    background-color:#F2C078;}
+    background-color:#E51C3D;}
 
 nav ul {display: none;}
 nav ul.open{display: block;}
@@ -75,9 +84,12 @@ main{
     
     
 }
+section button{
+    background-color:#E51C3D ;
+}
 
 section:nth-child(1){
-    background-color:#FE5D26;
+    background-color:#FFFFFF;
     /* grid-column:2/4 ;
     grid-row: 1/3; */
     border: 2px solid rgba(0, 0, 0, 0.5);
@@ -85,38 +97,39 @@ section:nth-child(1){
 
 }
 section:nth-child(2){
-    background-color: #FE5D26;
+    background-color: #FFFFFF;
     /* grid-column:2/6 ;
     grid-row: 3/4; */
     border: 2px solid rgba(0, 0, 0, 0.5);
     
 }
 section:nth-child(3){
-    background-color: #FE5D26;
+    background-color: #FFFFFF;
     /* grid-column:1/2 ;
     grid-row: 1/2; */
     border: 2px solid rgba(0, 0, 0, 0.5);
 }
 section:nth-child(4){
-    background-color: #FE5D26;
+    background-color: #FFFFFF;
     /* grid-column:1/2 ;
     grid-row: 2/3; */
     border: 2px solid rgba(0, 0, 0, 0.5);
 }
 section:nth-child(5){
-    background-color: #FE5D26;
+    background-color: #FFFFFF;
     /* grid-column:1/2 ;
     grid-row: 3/4; */
+    border: 2px solid rgba(0, 0, 0, 0.5);
 }
 section:nth-child(6){
-    background-color: #FE5D26;
+    background-color: #FFFFFF;
     /* grid-column:4/6 ;
     grid-row: 1/2; */
     border: 2px solid rgba(0, 0, 0, 0.5);
 
 }
 section:nth-child(7){
-    background-color: #FE5D26;
+    background-color: #FFFFFF;
     /* grid-column:4/6 ;
     grid-row: 2/3; */
     border: 2px solid rgba(0, 0, 0, 0.5);
@@ -128,7 +141,7 @@ section p {
 footer{
     display: flex;
     flex-direction: column; 
-    background-color: #F2C078;
+    background-color:  #B9DAEC;
     align-items: center;
 }
 footer img{
