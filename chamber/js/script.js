@@ -10,9 +10,9 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK",{dateStyle: "full"}).format(d
 document.querySelector(".currentdate").textContent = fulldateUK;
 
 function toggleMenu(){
-	document.getElementById("#primaryNav").classList.toggle("open")
-    document.getElementById("#hamburgerbttn").classList.toggle("open")
+	document.getElementById("primaryNav").classList.toggle("open");
+    document.getElementById("hamburgerbttn").classList.toggle("open")
 }
 
-const x  = document.getElementById("#hamburgerbttn");
-x.onclick = toggleMenu;
+const x  = document.getElementById("hamburgerbttn")
+    x.onclick = toggleMenu;
