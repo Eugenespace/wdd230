@@ -139,12 +139,17 @@ section p {
 }
 
 footer{
-    display: flex;
-    flex-direction: column; 
     background-color:  #B9DAEC;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+  
 }
 footer img{
     width: 100px;
-    float: left;
+    
+    /* float: left; */
 } 

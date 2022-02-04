@@ -55,6 +55,28 @@
     }
     body{
        
-        font-size: 1.5rem;}
+        font-size: 1.2rem;}
     
+    .footerContainer{
+        display: grid;
+        grid-template-columns: 150px 1fr 1fr;
+        grid-template-rows: auto;
+        width:100%;
+        align-items: center;
+        font-size: 1em;
+       
+    }
+    footer img{
+    float: left;
+  
+    }
+    .contactEmail{
+        grid-column: 3/4;
+    }
+    .map{
+        grid-column: 3/4;
+    }
+    .address{
+        grid-column: 2/3;
+    }
     }
