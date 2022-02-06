@@ -32,6 +32,20 @@ header h1,h2, p{
     text-align: center;
     
 }
+div#message {
+    margin: 10px;
+    background-color: #E51C3D;
+    border-top: rgba(0,0,0,0.5);
+    border-bottom: rgba(0,0,0,0.5);
+}
+
+div.showme{
+    display: block;
+}
+
+div.hideme{
+    display: none;
+}
 header nav{
     background-color:#CD127C;
 }
@@ -84,10 +98,39 @@ main{
     
     
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body > main:nth-child(2) > section:nth-child(1){
+    padding: 0px;
+}
+
+section{
+    width: 100%;
+    margin: 0;
+    
+}
+main section  img{
+    width: 100%;
+    height: auto;
+   
+
+}
 section button{
     background-color:#E51C3D ;
 }
 
+.heroButtn {
+    background-color: #E51C3D;
+    color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    border: 3.5px solid #E51C3D;
+    position: absolute;
+    padding: 0.5em;
+    margin:4em 1% 0;;
+}
 section:nth-child(1){
     background-color:#FFFFFF;
     /* grid-column:2/4 ;
