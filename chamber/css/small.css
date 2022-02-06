@@ -98,10 +98,10 @@ main{
     
     
 }
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 body > main:nth-child(2) > section:nth-child(1){
     padding: 0px;
@@ -115,21 +115,29 @@ section{
 main section  img{
     width: 100%;
     height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+   
    
 
 }
 section button{
-    background-color:#E51C3D ;
+    background-color:#CD127C ;
 }
 
 .heroButtn {
-    background-color: #E51C3D;
-    color: rgba(0, 0, 0, 0.9);
+    background-color: #CD127C;
+    color: white;
     border-radius: 10px;
-    border: 3.5px solid #E51C3D;
+    border: 3.5px solid #CD127C;
     position: absolute;
+    left:100px;
+    top: 350px;
     padding: 0.5em;
-    margin:4em 1% 0;;
+    margin:4em 1% 0;
+    opacity: 1;
+
 }
 section:nth-child(1){
     background-color:#FFFFFF;

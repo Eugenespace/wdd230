@@ -10,6 +10,25 @@
         
         
     }
+    main section  img{
+        width: 100%;
+        height: auto;}
+        
+
+
+    .heroButtn {
+        background-color: #CD127C;
+        color: white;
+        border-radius: 10px;
+        border: 3.5px solid #CD127C;
+        position: absolute;
+        left:550px;
+        top: 150px;
+        padding: 0.5em;
+        margin:4em 1% 0;
+        opacity: 1;
+    
+    }
     section:nth-child(1){
         
         grid-column:2/4 ;

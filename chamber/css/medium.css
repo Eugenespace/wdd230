@@ -15,8 +15,25 @@
         grid-template-columns: 1fr 1fr;
           
     }
+    main section  img{
+        width: 100%;
+        height: auto;}
+        
     section:nth-child(7)  {
         grid-column: 1/3;
+    }
+    .heroButtn {
+        background-color: #CD127C;
+        color: white;
+        border-radius: 10px;
+        border: 3.5px solid #CD127C;
+        position: absolute;
+        left:100px;
+        top: 110px;
+        padding: 0.5em;
+        margin:4em 1% 0;
+        opacity: 1;
+    
     }
     body{
        
