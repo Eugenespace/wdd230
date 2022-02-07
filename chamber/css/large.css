@@ -13,7 +13,7 @@
     main section  img{
         width: 100%;
         height: auto;}
-        
+
 
 
     .heroButtn {
@@ -23,7 +23,7 @@
         border: 3.5px solid #CD127C;
         position: absolute;
         left:550px;
-        top: 150px;
+        top: 200px;
         padding: 0.5em;
         margin:4em 1% 0;
         opacity: 1;

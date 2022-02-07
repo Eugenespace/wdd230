@@ -17,7 +17,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     margin:0 auto;
-    width: fit-content;
+    width:fit-content;
 }
 h1,p{margin:0 ;}
 header{
@@ -34,6 +34,7 @@ header h1,h2, p{
 }
 div#message {
     margin: 10px;
+    color: whitesmoke;
     background-color: #E51C3D;
     border-top: rgba(0,0,0,0.5);
     border-bottom: rgba(0,0,0,0.5);
@@ -98,10 +99,7 @@ main{
     
     
 }
-/* * {
-    margin: 0;
-    padding: 0;
-} */
+
 
 body > main:nth-child(2) > section:nth-child(1){
     padding: 0px;
@@ -133,7 +131,7 @@ section button{
     border: 3.5px solid #CD127C;
     position: absolute;
     left:100px;
-    top: 350px;
+    top: 400px;
     padding: 0.5em;
     margin:4em 1% 0;
     opacity: 1;
