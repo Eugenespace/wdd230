@@ -3,32 +3,18 @@
     nav ul li a {
         padding: .5rem 1rem;
     }
-    main{
+
+    .wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr ;   
-        
-        
+
     }
+    
     main section  img{
         width: 100%;
         height: auto;}
 
-
-
-    .heroButtn {
-        background-color: #CD127C;
-        color: white;
-        border-radius: 10px;
-        border: 3.5px solid #CD127C;
-        position: absolute;
-        left:550px;
-        top: 250px;
-        padding: 0.5em;
-        margin:4em 1% 0;
-        opacity: 1;
-    
-    }
     section:nth-child(1){
         
         grid-column:2/4 ;
@@ -78,12 +64,16 @@
     
     .footerContainer{
         display: grid;
-        grid-template-columns: 150px 1fr 1fr;
+        grid-template-columns: 0.1fr 2.7fr 1fr;
         grid-template-rows: auto;
         width:100%;
-        align-items: center;
+        /* align-items: center; */
         font-size: 1em;
        
+    }
+    .address{
+        text-align: left;
+        grid-area:auto;
     }
     footer img{
     float: left;
