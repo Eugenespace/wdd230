@@ -7,6 +7,7 @@
 <title>Chamber of commerce</title>
 <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
 <script defer src="js/script.js"></script>
+<script defer src="js/windchill.js"></script>
 
 <!-- font links -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,9 +30,11 @@
 <!-- HEADER HERE -->
 	<header>
         <div id="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
-        <img src="images/logoplaceholder.png" alt="logo"/>
+        <div class="logo">
+        <img src="images/logooptimized.webp" alt="logo"/>
+         </div>
         <h1>Ghana Chamber of Commerce</h1>
-        <h2>Building a business hub </h2>
+        <h2>"Building a business hub" </h2>
         <p class="currentdate">Current Date</p>
         <nav>
             <button id="hamburgerbttn"><span>&#9776;</span><span>X</span></button>
@@ -46,6 +49,14 @@
     </header>    
 <!-- CONTENT HERE -->
 <main>
+    <picture class="heroSRC">
+    <source srcset="images/heroSrc200.jpg" media="(max-width: 200px)">
+    <source srcset="images/heroSrc500.jpg" media ="(max-width: 500px">
+    <source srcset="images/heroSrc800.jpg" media = "(max-width: 800px" >
+    <img src="images/heroSrc.jpg" alt="heroSrcimage">
+    </picture>
+
+    <h1>Home</h1>
     <div class="wrapper">
     <section class="hero">
         <div class="heroContent">
@@ -68,9 +79,15 @@
     </section>
     <section>
         <h2>Weather</h2>
-        <figure>
+        <picture class="icon">
+        <img src="images/weatherWep.webp" alt="weathericon">
+        </picture>
+        <p>Current Temperature is <span id="temp">45</span>&deg;</p>
+        <p>Current wind speed <span id="speed">60</span>mph</p>
+        <p id="chill">message</p>
+        <!-- <figure>
         <img src="images/weather.jpeg" alt="weather widget"/>
-        </figure>
+        </figure> -->
     </section>
     <section>
         <h2>Want to Join ?</h2>
@@ -79,13 +96,13 @@
     </figure>
     </section>
   <section>
-        <h2>Spotlights1</h2>
+        <h2>Spotlights</h2>
     <figure>
         <img src="images/spotlight1.jpeg" alt="spotlightImage">
     </figure>
     </section>
     <section>
-        <h2>Spotlights1</h2>
+        <h2>Spotlights</h2>
     <figure>
         <img src="images/spotlight.jpeg" alt="spotlightImage1">
     </figure>
@@ -96,7 +113,7 @@
 <!-- FOOTER HERE -->  
 <footer>
     <div class="footerContainer">
-    <img src="images/logoplaceholder.png" alt="logo"/>
+    <img src="images/logooptimized.webp" alt="logo"/>
     <div class= "address">
     Ghana Chamber of Commerce
     <br>Off Airport West rd</br>
