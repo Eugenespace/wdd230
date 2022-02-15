@@ -22,11 +22,10 @@ body{
 h1,p{margin:0 ;}
 header{
     background-color:#B9DAEC;
+    display: grid;
+    grid-template-columns: auto;
 }
-header img{
-    width: 100px;
-    float: left;
-}
+
 header h1,h2, p{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
