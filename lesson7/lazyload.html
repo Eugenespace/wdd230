@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lazy load images</title>
+        <link rel="stylesheet" href="gal.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+        <script  defer src="script.js"></script>
+      </head>
+<body>
+    <header>
+        <h1>Lazy load images</h1>
+    </header>
+<main>
+    <gallery>
+        <picture>
+          <img
+            src="images/placeholderimg.png"
+            data-src="images/images1.png"
+            alt="lazy load image"
+          />
+        </picture>
+        <picture>
+          <img
+            src="images/placeholderimg.png"
+            data-src="images/image2.webp"
+            alt="lazy load image"
+          />
+        </picture>
+        <picture>
+          <img
+            src="images/placeholderimg.png"
+            data-src="images/image3.webp"
+            alt="lazy load image"
+          />
+        </picture>
+        <picture>
+          <img
+            src="images/placeholderimg.png"
+            data-src="images/images4.jpg"
+            alt="lazy load image"
+          />
+        </picture>
+        <picture>
+          <img
+            src="images/placeholderimg.png"
+            data-src="images/images5.jpg"
+            alt="lazy load image"
+          />
+        </picture>
+      </gallery>
+</main>
+<footer>
+    <p>&copy; 2022| Eugene Kartey | Idaho | BYUI Online learning</p>
+</footer>
+</body>
+</html>

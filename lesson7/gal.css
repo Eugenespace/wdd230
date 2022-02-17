@@ -1,0 +1,22 @@
+gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+gallery img {
+    width: 300px;
+    height: 400px;
+    margin: 2vh 0;
+    box-shadow: 1px 1px 3px #801d1d;
+    filter: blur(0em);
+    transition: filter 2.5s;
+  }
+  
+  [data-src] {
+    filter: blur(0.2em);
+    min-width: 200px;
+    min-height: 300px;
+  }
+  
