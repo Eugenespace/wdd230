@@ -33,8 +33,8 @@ header h1,h2, p{
 }
 div#message {
     margin: 10px;
-    color: whitesmoke;
-    background-color: #E51C3D;
+    color:black;
+    background-color:blanchedalmond;
     border-top: rgba(0,0,0,0.5);
     border-bottom: rgba(0,0,0,0.5);
 }
@@ -74,7 +74,7 @@ header nav ul li a{
 }
 
 header nav ul li.active a{
-    color: white;
+    color:blanchedalmond;
 }
 
 nav ul li a:hover{
@@ -234,7 +234,7 @@ footer div.address{
 /* lazy images style */
 gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     
     
@@ -254,3 +254,12 @@ gallery img {
     min-width: 200px;
     min-height: 300px;
   }
+
+
+
+  div.heading{
+    grid-column:auto;
+    font-style: italic;
+    text-shadow: #1cc7e5;
+    background-color: antiquewhite;
+    width:100%}

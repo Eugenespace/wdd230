@@ -87,5 +87,21 @@
     }
     .address{
         grid-column: 2/3;
+
     }
+
+    gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        
+        
     }
+
+
+    div.heading{
+        grid-column: 1/4;}
+
+    }
+
+   
