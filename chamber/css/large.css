@@ -90,7 +90,7 @@
 
     }
 
-    gallery {
+    .discover{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
@@ -101,6 +101,9 @@
 
     div.heading{
         grid-column: 1/4;}
+
+    .hovereffect:hover {box-shadow: 0 0 50px #333;}   
+    
 
     }
 

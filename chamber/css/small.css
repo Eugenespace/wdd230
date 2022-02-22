@@ -232,7 +232,7 @@ footer div.address{
 }
 
 /* lazy images style */
-gallery {
+.discover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -240,7 +240,7 @@ gallery {
     
   }
   
-gallery img {
+.discover img {
     width: 300px;
     height: 400px;
     margin: 2vh 0;
