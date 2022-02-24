@@ -1,0 +1,58 @@
+
+:root {
+	--back: rgb(115, 114, 38);
+  --back2: rgba(115, 38, 76, 0.5);
+  --foredark: rgb(197, 100, 100);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: rgb(77, 19, 19);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+*{
+    font-family: Ubuntu, sans-serif;
+}
+
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+}
+
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 2px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+tfoot tr:nth-child(1) {
+	background-color: var(--foredark);
+}
+/* caption {
+	padding: 10px;
+	caption-side: bottom;
+	  color: var(--back);
+	  font-size: .85rem;
+  } */
+
+
