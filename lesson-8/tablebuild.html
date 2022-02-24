@@ -7,64 +7,68 @@
     <title>Building Tables</title>
 </head>
 <body>
-    <main>
-        <table>
-            <caption>Table 1. </caption>
-            <thead>
-                <tr>
-                    <th colspan="5" scope="colgroup">Testing substances</th>
-                </tr>
-                <tr>
-                    <th scope="col">Plastics</th>
-                    <th scope="col">Acetone</th>
-                    <th scope="col"> Flame test </th>
-                    <th scope="col"> Heat</th>
-                    <th scope="col"> Crease color</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td scope="row">1</td>
-                    <td>No effect</td>
-                    <td>Green color</td>
-                    <td>Softens</td>
-                    <td>None</td>
-                </tr>
-                <tr>
-                    <td scope="row">2</td>
-                    <td>Softened</td>
-                    <td>No change</td>
-                    <td>No change</td>
-                    <td>White</td>
-                </tr>
-                <tr>
-                    <td scope="row">3</td>
-                    <td>No effect</td>
-                    <td>Red color</td>
-                    <td>Softens</td>
-                    <td>None</td>
-                </tr>
-                <tr>
-                    <td scope="row">4</td>
-                    <td>No effect</td>
-                    <td>Green color</td>
-                    <td>Softens</td>
-                    <td>None</td>
+
+    <table>
+        <caption>Table 1. </caption>
+        <thead>
+            <tr>
+                <th colspan="3" scope="colgroup">ACME Wildwest</th>
+            </tr>
+            <tr>
+                <th scope="col">Period</th>
+                <th scope="col">Sales</th>
+                <th scope="col"> Sales goal </th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">August</td>
+                <td>$3,590</td>
+                <td>$4000</td>
+                
+            </tr>
+            <tr>
+                <td scope="row">September</td>
+                <td>$4,420</td>
+                <td>$5000</td>
+                
+            </tr>
+            <tr>
+                <td scope="row">October</td>
+                <td>$4,870</td>
+                <td>$5000</td>
+                
+            </tr>
+            <tr>
+                <td scope="row">November</td>
+                <td>$8,610</td>
+                <td class='target'>$7,500</td>
+                
+            </tr>
+            <tr>
+                <td scope="row">Black friday</td>
+                <td colspan="2">$3500</td>
+                
+                
+            </tr>
+            <tr>
+                <td scope="row">December</td>
+                <td>No effect</td>
+                <td>Green color</td>
+                
+            </tr>
+        
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3" scope="colgroup">Compiled 2.23.2022 by Eugene Kartey</th>
+                
                 </tr>
             
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>4 Different plastics</td>
-                    <td>First test</td>
-                    <td>Second test</td>
-                    <td>Third test </td>
-                    <td>Fourth test</td>
-                  </tr>
-                
-            </tfoot>
-        </table>
-    </main>
+        </tfoot>
+    </table>
+
     
 </body>
 </html>
