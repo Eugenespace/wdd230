@@ -263,3 +263,86 @@ footer div.address{
     text-shadow: #1cc7e5;
     background-color: antiquewhite;
     width:100%}
+/*---------------Form------------------*/
+    form fieldset{
+        margin: 2rem 0;
+        border: 1px solid #445ba9;
+        padding: .5rem 2%;
+        
+    }
+   form legend{
+       color:#445ba9;
+       margin: .1rem;
+       padding: 0 .5rem;
+   }
+   form label.top, form div{
+       display: block;
+       padding-top: 1rem;
+       color: #E51C3D;
+       font-size: .8rem;
+   }
+   
+   form label.top input,form label.top select{
+       -webkit-appearance: none;
+       display: block;
+       font-size: 1rem;
+       border: solid 1px #999;
+       border-radius: 4px;
+       padding: .75rem;
+       color: #555;
+       width: 100%;
+       max-width: 20rem;
+       background-color:rgba(0,0,0,0,1) ;
+   
+   }
+   
+   form input.submitBtn{
+       border: none;
+       background-color: #CD127C;
+       color: white;
+       border-radius: 1rem;
+       padding: .75rem 1.5rem;
+       margin: 0 0 2rem 2%;
+       width: 96%;
+       max-width: 20rem;
+   }
+   form label.top input:required{
+       border-left: rgb(255, 0, 191) solid 6px;
+   }
+   form label.top input:required:valid{
+       border-left:green solid 6px;}
+
+    /*-----------------------------join---------------------------*/
+    section.joinUs{
+        align-items: center;
+        row-gap: 0;
+        max-width: 100%;
+      
+    }
+
+    div.membershipOptions{
+        border: #555;
+        margin: 0px;
+        padding :20px;
+        max-width: 100%;
+       
+        
+    }
+    div.vipOption{
+        background-color: #CD127C;
+        border-radius: 50%;
+        padding: 10px;
+        color: white;
+    }
+    div.platiumOption{
+        background-color:aqua;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    div.silverOption{
+        background-color:var(--accent1-color);
+        border-radius: 50%;
+        padding: 10px;
+        color: white;
+
+    }

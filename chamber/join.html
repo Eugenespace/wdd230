@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Building a chamber of commerce weather site">
+<meta name="Eugene" content="Commerce info">
+<title>Chamber of commerce</title>
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+<script defer src="js/localStoragePageVisitDate.js"></script>
+<script defer src="js/script.js"></script>
+<!-- font links -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<!--favicon-->
+<link rel="shortcut icon" href="images/favicon.ico">
+   
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header>
+        <div id="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+        <div class="logo">
+        <img src="images/logooptimized100px.webp" alt="logo"/>
+         </div>
+        <h1>Ghana Chamber of Commerce</h1>
+        <h2>"Building a business hub" </h2>
+        <p class="currentdate">Current Date</p>
+        <p id="lastVisit"></p>
+        <nav>
+            <button id="hamburgerbttn"><span>&#9776;</span><span>X</span></button>
+            <ul id = "primaryNav" class = "open">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li class="active"><a href="discover.html">Discover</a></li>
+                <li><a href="#">Contact Us</a></li>    
+            </ul>
+        </nav>
+        
+    </header>    
+<!-- CONTENT HERE -->
+<main>
+    <section class="joinUs">
+
+    <h2 class=" headingjoin">Join us now for amazing business ideas</h2>
+    <form class ="formPos" method = "get" action="thankyou.html">
+        <fieldset>
+            <legend>
+                Applicant information</legend>
+
+            <label class="top">  First Name* <input type="text" name="fname" required></label>
+            <label class="top">  Last Name* <input type="text" name="lname" required></label>
+            <label class="top">  Business Position Title  <input type="title" name="positionTitle" placeholder="eg.Manager" ></label>
+            <label class="top">  Email* <input type="email" name="email" required placeholder="someone@gmail.com"></label>
+            <label class="top">  Phone <input type="tel" name="phone" placeholder="1234565" ></label>
+            <label class="top">  Business Name* <input type="text" name="businessName" required placeholder="beads making ventures"></label>
+            
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Membership Level</legend>
+            <label class="top">Membership Types
+            <select name="membership level" id="">
+
+                <option value="">Please  Select &#9662; </option>
+                <option value="vip">VIP</option>
+                <option value="platinum">Platinum</option>
+                <option value="silver">Silver</option>
+        
+            </select>
+        </fieldset>
+        
+        <input type="submit" value="Join us" class="submitBtn">
+
+    </form>
+            
+     <div class="membershipOptions">
+         <h2>Membership options</h2>
+         <div class="vipOption">
+             <h3 class="icon"></h3>
+             <h2>VIP</h2>
+             <p>Get Access to wide range of...</p>
+
+         </div>
+         <div class="platiumOption">
+            <h3 class="icon"></h3>
+            <h2>Platinum</h2>
+            <p>Get Access to wide range of...</p>
+
+         </div>
+         <div class="silverOption">
+            <h3 class="icon"></h3>
+            <h2>Silver</h2>
+            <p>Get Access to wide range of...</p>
+
+         </div>
+
+     </div> 
+    </section>
+</main>
+   
+<!-- FOOTER HERE -->  
+<footer>
+    <div class="footerContainer">
+    <img src="images/logooptimized100px.webp" alt="logo"/>
+    <div class= "address">
+    Ghana Chamber of Commerce
+    <br>Off Airport West rd<br>
+    <br>Accra-Ghana<br>
+    </div>  
+    <div class="contactEmail">
+    <a href="mailto:email@ghchamber.tech">email@ghchamber.tech</a>
+    <br>Tel: +233203744176<br>
+    </div>
+    <div class="map">
+    <a href="#">Location Map</a>
+    </div>
+    </div>
+    <p> &copy;<span id="current_year"></span> |Eugene Kartey | WDD230 </p>
+    <p id="lastmod"></p>
+   
+    
+    
+</footer>
+</body>
+</html>
+

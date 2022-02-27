@@ -42,5 +42,18 @@
         padding:10px;
         margin: auto;
     }
+
+.joinUs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.formPos{
+    grid-column: 1/2;
+}
+
+.headingjoin{ grid-column: 1/3;
+
+}
+
 }
   
