@@ -57,6 +57,10 @@ lazyloadimage.forEach((img) => {
     observerImg.observe(img);
 });
 
+
+/*---------hidden message*/
+
+document.getElementById('custId').setAttribute('value',new Date())
 // displaying how many days
 
 // const msInDay = 1000 * 60 * 60 * 24;

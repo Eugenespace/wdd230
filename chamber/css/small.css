@@ -260,7 +260,7 @@ footer div.address{
   div.heading{
     grid-column:auto;
     font-style: italic;
-    text-shadow: #1cc7e5;
+    text-shadow:var(--primary-color);
     background-color: antiquewhite;
     width:100%}
 /*---------------Form------------------*/
@@ -292,7 +292,7 @@ footer div.address{
        color: #555;
        width: 100%;
        max-width: 20rem;
-       background-color:rgba(0,0,0,0,1) ;
+       background-color:rgb(39, 190, 190) ;
    
    }
    

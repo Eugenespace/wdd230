@@ -59,7 +59,7 @@
 
             <label class="top">  First Name* <input type="text" name="fname" required></label>
             <label class="top">  Last Name* <input type="text" name="lname" required></label>
-            <label class="top">  Business Position Title  <input type="title" name="positionTitle" placeholder="eg.Manager" ></label>
+            <label class="top">  Business Position Title  <input type="text" name="positionTitle" ></label>
             <label class="top">  Email* <input type="email" name="email" required placeholder="someone@gmail.com"></label>
             <label class="top">  Phone <input type="tel" name="phone" placeholder="1234565" ></label>
             <label class="top">  Business Name* <input type="text" name="businessName" required placeholder="beads making ventures"></label>
@@ -69,8 +69,8 @@
 
         <fieldset>
             <legend>Membership Level</legend>
-            <label class="top">Membership Types
-            <select name="membership level" id="">
+            <label class="top">Membership Types</label>
+            <select name="membership level">
 
                 <option value="">Please  Select &#9662; </option>
                 <option value="vip">VIP</option>
@@ -79,7 +79,7 @@
         
             </select>
         </fieldset>
-        
+        <input type="hidden" id="custId" name="hiddenmgs" value="">
         <input type="submit" value="Join us" class="submitBtn">
 
     </form>
@@ -88,17 +88,19 @@
          <h2>Membership options</h2>
          <div class="vipOption">
              <h2>VIP</h2>
-             <p>Get Access to wide range of...</p>
+             <p>Get Access to all benefits and resources are available for members of the website, 
+                including access to  courses and credential maintenance webinars. Members have a designated primary contact,
+                who has been assigned to them to help in boosting their business by providing them with 1v1 business solutions and ideas.</p>
 
          </div>
          <div class="platiumOption">
             <h2>Platinum</h2>
-            <p>Get Access to wide range of...</p>
+            <p>Get Access to wide range of business solutions and access to webinars. This level gives you opportunity to join fundraising and business forum discussions</p>
 
          </div>
          <div class="silverOption">
             <h2>Silver</h2>
-            <p>Get Access to wide range of...</p>
+            <p>Get Access to only webinars and newsletters</p>
 
          </div>
 
