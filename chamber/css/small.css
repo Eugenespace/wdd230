@@ -315,7 +315,7 @@ footer div.address{
     /*-----------------------------join---------------------------*/
     section.joinUs{
         align-items: center;
-        row-gap: 0;
+        row-gap: 200;
         max-width: 100%;
       
     }
@@ -346,3 +346,7 @@ footer div.address{
         color: white;
 
     }
+
+h5{
+    text-align: center;
+}

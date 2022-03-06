@@ -93,8 +93,7 @@
     .discover{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        
+        grid-template-rows: auto;   
         
     }
 
@@ -103,8 +102,11 @@
         grid-column: 1/4;}
 
     .hovereffect:hover {box-shadow: 0 0 50px #333;}   
-    
 
-    }
+    /* Directory */
+.card__directory{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   }
 
-   
+}

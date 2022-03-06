@@ -1,0 +1,79 @@
+{
+    "localdirector":
+    [       
+     {
+       "name":"Accra Brewery Limited",
+       "address":"Graphic Road, South Industrial Area, Accra",
+       "desc":"Find 3 million companies in one B2B sectors.",
+       "phone":"056-356436",
+       "website":"www.europages.it",
+       "imageUrl":"images/accra_brewery.jpg"
+        },
+        
+        {
+
+          "name":"Masstrack Technologies ",
+          "address":"Accra-Ghana, Accra",
+          "desc":"MassTrack is a leading fleet management solution designer and is committed to providing its clients with innovative and affordable fleet management solutions",
+          "phone":"0206485957",
+          "website":"http://www.masstracktech.com",
+          "imageUrl":"images/masstrack.png"
+        },
+        {
+          "name":"Palace Shopping Mall",
+          "address":"Flower Pot, Spintex, Accra, Ghana",
+          "desc":"Group of shops where you can buy wide range of products",
+          "phone":"0302672838",
+          "website":"0302672838",
+          "imageUrl":"images/palacemall.png"
+       },
+       {
+          "name":"Max Mart Shopping Centre",
+          "address":"Tema (Located in the Tema Central Mall) near the Oil Refinery, Tema, Ghana",
+          "desc":"Mall for buying variety of goods",
+          "phone":"+233 (303) 302781",
+          "website":"http://www.maxmartghana.com",
+          "imageUrl":"images/maxmart.png"
+       },
+     {
+          "name":"Buy right",
+          "address":"Accra-Ghana",
+          "desc":"Helps with buying and selling of products.",
+          "phone":"1238884444",
+          "website":"https://www.buyryt.com/",
+          "imageUrl":"images/buyryt.png"
+       },
+     {
+          "name":"The Ghanaian Standard",
+          "address":"LGS-0749-6211",
+          "desc":"Brings you  accurate breaking news, headlines and lifestyle stories.",
+          "phone":"0550919202",
+          "website":"https://www.ghstandard.com/",
+          "imageUrl":"images/standard.png"
+       },
+     {
+          "name":"Artist Alliance Gallery",
+          "address":"Beach Road before La Palm Royal Hotel ",
+          "desc":"Artists Alliance Gallery is a marketplace for comtemporary African Art collectors and Enthusiants shopping for authencity and originality.",
+          "phone":"+233 21762576",
+          "website":"http://www.artistsallianz.com/",
+          "imageUrl":"images/alliance.png"
+       },
+      {
+          "name":"Herschel Gallery",
+          "address":"East-Cantonment, Accra ",
+          "desc":"Herschel Gallery has over the past two years helped develop and market up and coming artists and craftsmen who have shown potential and commitment in their work.",
+          "phone":"0248956388",
+          "website":"http://www.herschelgallery.com/",
+          "imageUrl":"images/harimage.png"
+       },
+       {
+           "name":"Touch of Bronze Ghana Limited ",
+           "address":"P. O. Box 203, Accra",
+           "desc":"Unique Cold cast Bronze, Brass, copper and Aluminium art pieces",
+           "phone":"030 250 1144",
+           "website":"http://www.touchofbronze.com/",
+           "imageUrl":"images/touchofbronze.png"
+        }
+   ]
+} 

@@ -43,17 +43,28 @@
         margin: auto;
     }
 
-.joinUs{
+    .joinUs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .formPos{
+        grid-column: 1/2;
+    }
+
+    .headingjoin{ grid-column: 1/3;
+
+    }
+
+    /* div.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
+
+/* Directory */
+.card__directory{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.formPos{
-    grid-column: 1/2;
-}
-
-.headingjoin{ grid-column: 1/3;
 
 }
-
-}
-  
+    
