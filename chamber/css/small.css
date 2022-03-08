@@ -47,7 +47,7 @@ div.hideme{
     display: none;
 }
 header nav{
-    background-color:#CD127C;
+    background-color:var(--secondary-color);
 }
 
 header nav button{
@@ -67,7 +67,7 @@ header nav ul li a{
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color:#FFFFFF;
+    color: var(--accent2-color);
     border-top:  1px solid rgba(0,0,0,0.5);
     text-align: center;
 
@@ -107,11 +107,11 @@ body header div.logo img{
     margin-top: 10px;
 }
 
-body > main:nth-child(2) > section:nth-child(1){
+body > main:nth-child(2) > section.mainSection:nth-child(1){
     padding: 0px;
 }
 
-section{
+section.mainSection{
     width: 100%;
     margin: 0;
     
@@ -122,7 +122,7 @@ body{
 main{
     width: fit-content;
 }
-main section  img{
+main section.mainSection  img{
     width: 100%;
     height: auto;
     border: 1px solid #ddd;
@@ -164,8 +164,8 @@ section picture.icon img{
 div h2{
     color: black;
 }
-section button{
-    background-color:#CD127C ;
+section.mainSection button{
+    background-color:var(--secondary-color) ;
 }
 .heroButtn {
     background-color: var(--secondary-color);
@@ -176,39 +176,39 @@ section button{
     cursor: pointer;
 } 
 
-section:nth-child(1){
-    background-color:#FFFFFF;
+section.mainSection:nth-child(1){
+    background-color:var(--accent2-color);
     border: 2px solid rgba(0, 0, 0, 0.5);
     padding: 50px;
 
 }
-section:nth-child(2){
-    background-color: #FFFFFF;
+section.mainSection:nth-child(2){
+    background-color: var(--accent2-color);
     border: 2px solid rgba(0, 0, 0, 0.5);
     
 }
-section:nth-child(3){
-    background-color: #FFFFFF;
+section.mainSection:nth-child(3){
+    background-color: var(--accent2-color);
     border: 2px solid rgba(0, 0, 0, 0.5);
 }
-section:nth-child(4){
-    background-color: #FFFFFF;
+section.mainSection:nth-child(4){
+    background-color: var(--accent2-color);
     border: 2px solid rgba(0, 0, 0, 0.5);
 }
-section:nth-child(5){
-    background-color: #FFFFFF;
+section.mainSection:nth-child(5){
+    background-color: var(--accent2-color);
     border: 2px solid rgba(0, 0, 0, 0.5);
 }
-section:nth-child(6){
-    background-color: #FFFFFF;
+section.mainSection:nth-child(6){
+    background-color: var(--accent2-color);
     border: 2px solid rgba(0, 0, 0, 0.5);
 
 }
-section:nth-child(7){
-    background-color: #FFFFFF;
+section.mainSection:nth-child(7){
+    background-color: var(--accent2-color);
     border: 2px solid rgba(0, 0, 0, 0.5);
 }
-section p {
+section.mainSection p {
     padding: 50px;
 }
 
@@ -278,7 +278,7 @@ footer div.address{
    form label.top, form div{
        display: block;
        padding-top: 1rem;
-       color: #E51C3D;
+       color: var(--accent1-color);
        font-size: .8rem;
    }
    
@@ -298,7 +298,7 @@ footer div.address{
    
    form input.submitBtn{
        border: none;
-       background-color: #CD127C;
+       background-color: var(--secondary-color);
        color: white;
        border-radius: 1rem;
        padding: .75rem 1.5rem;
@@ -329,24 +329,102 @@ footer div.address{
         
     }
     div.vipOption{
-        background-color: #CD127C;
+        background-color: var(--secondary-color);
         border-radius: 50%;
-        padding: 10px;
+        padding: 40px;
         color: white;
     }
     div.platiumOption{
         background-color:aqua;
         border-radius: 50%;
-        padding: 10px;
+        padding: 30px;
     }
     div.silverOption{
         background-color:var(--accent1-color);
         border-radius: 50%;
-        padding: 10px;
+        padding: 30px;
         color: white;
 
     }
+/*-------------------------------Directory Page---------------------------------------------*/
+/* main.discoveryPage{
+    width: auto;
+} */
+main.discoveryPage{
+    display: grid;
+   
+}
+/* div section{
+    max-width: 960px;
+} */
+div.card__directory{
+    display: flex;
+    flex-direction:column;
+}
 
 h5{
     text-align: center;
+    font-size: 1.5rem;
+    margin: 8px;
+    text-shadow: 3px 3px 5px gray;
+
 }
+
+#text__head {
+    display: grid;
+    text-align: center;
+    
+}
+div section {
+    background-color: #eee;
+    margin-top: 10px;
+}
+div>section>article {
+    text-align: center;
+    margin-bottom: 20px;
+}
+article > p {
+    margin-top: 10px;
+}
+
+
+article {
+    text-align: center;
+    background-color: #eee;
+}
+article > p {
+    margin-top: 10px;
+}
+article > p:nth-child(2) {
+    word-wrap: break-word;
+    font-style: italic;
+    font-size: 14px;
+}
+.event__image {
+    border-radius: 10px;
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+}
+
+/* Directory */
+div.list-icons {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .fa-solid {
+    padding: 1rem;
+    margin: 1rem 0.1rem;
+    border: 1px solid  #a3a2a1;
+    border-radius: 5px;
+    color:  #B9DAEC;
+    font-size: 1.5rem;
+  }
+  
+  .fa-solid:hover {
+    background-color: #fcecc0;
+    color: #f2972d;
+  }
+

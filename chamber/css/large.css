@@ -11,48 +11,56 @@
 
     }
     
-    main section  img{
+    main section.mainSection img{
         width: 100%;
         height: auto;}
 
-    section:nth-child(1){
+    /* section:nth-child(1){
+        
+        grid-column:2/4 ;
+        grid-row: 1/3;
+      
+    } */
+
+    section.hero{
         
         grid-column:2/4 ;
         grid-row: 1/3;
       
     }
-    section:nth-child(2){
+
+    section.mainSection:nth-child(2){
     
         grid-column:2/6 ;
         grid-row: 3/4;
         
         
     }
-    section:nth-child(3){
+    section.mainSection:nth-child(3){
     
         grid-column:1/2 ;
         grid-row: 1/2;
         
     }
-    section:nth-child(4){
+    section.mainSection:nth-child(4){
     
         grid-column:1/2 ;
         grid-row: 2/3;
         
     }
-    section:nth-child(5){
+    section.mainSection:nth-child(5){
     
         grid-column:1/2 ;
         grid-row: 3/4;
     }
-    section:nth-child(6){
+    section.mainSection:nth-child(6){
         
         grid-column:4/6 ;
         grid-row: 1/2;
         
     
     }
-    section:nth-child(7){
+    section.mainSection:nth-child(7){
     
         grid-column:4/6 ;
         grid-row: 2/3;
@@ -103,10 +111,45 @@
 
     .hovereffect:hover {box-shadow: 0 0 50px #333;}   
 
+    
     /* Directory */
-.card__directory{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   }
+  
+    
+    #text__head {
+        display: grid;
+        text-align: center;
+        /* justify-content: center; */
+    }
+    h5 {
+        font-size: 1.5rem;
+        margin: 8px;
+        text-shadow: 3px 3px 5px gray;
+    }
+    section {
+        background-color: #eee;
+        margin-top: 10px;
+    }
+    article {
+        text-align: center;
+        /* white-space: nowrap; */
+        margin-bottom: 20px;
+    }
+    article > p {
+        margin-top: 10px;
+    }
+    .event__image {
+        width: 100%;
+        height: 100px;
+    }
+    div.card__directory{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap:10px}
 
+
+    .event__image {
+        border-radius: 10px;
+        border-style: solid;
+        }
+    
 }

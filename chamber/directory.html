@@ -6,9 +6,13 @@
 <meta name="Eugene" content="Commerce info">
 <title>Chamber of commerce</title>
 <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
-<!-- <script defer src="js/localStoragePageVisitDate.js"></script>
-<script defer src="js/script.js"></script> -->
+<script defer src="js/localStoragePageVisitDate.js"></script>
+<script defer src="js/script.js"></script>
 <script defer src='js/directory.js'></script>
+<script
+src="https://kit.fontawesome.com/bfc6b49eec.js"
+crossorigin="anonymous"
+></script> 
 <!-- font links -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,11 +54,23 @@
         
     </header>    
 <!-- CONTENT HERE -->
-<main class= "directory">
+<main class="discoveryPage">
+
+
+        <!-- <button id="displayGridList" class>
+            <span class="gridView"> Grid View</span>
+            <span class = "listView">List View</span>
+        </button> -->
   
         <h2 id="text__head">Local Business Directory</h2>
+        <div class="list-icons">
+            <i class="fa-solid fa-table-cells view-active"></i>
+            <i class="fa-solid fa-list"></i>
+          </div>
+  
         <div class="card__directory"></div>
-    
+        <!-- <input type="hidden" id="custId" name="hiddenmgs" value="">
+        <input type="submit" value="Join us" class="submitBtn"> -->
 </main>
    
 <!-- FOOTER HERE -->  
