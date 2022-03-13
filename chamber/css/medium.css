@@ -69,8 +69,8 @@
 	}
 	/* Directory */
 	.list-layout-med {
-		display: flex;
-		flex-direction: column;
+		display: grid;
+		grid-template-columns:1fr;
 		max-width: 100%;
 	}
 	.list-col {
