@@ -60,5 +60,8 @@ lazyloadimage.forEach((img) => {
 
 /*---------hidden message*/
 
-document.getElementById('custId').setAttribute('value',new Date())
+  document.getElementById('custId').setAttribute('value',new Date())
 
+
+
+ 

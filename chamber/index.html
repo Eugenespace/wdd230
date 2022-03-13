@@ -43,7 +43,7 @@
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="#">Contact Us</a></li>    
+                  
             </ul>
         </nav>
         
@@ -80,15 +80,15 @@
     </section>
     <section class="mainSection">
         <h2>Weather</h2>
-        <picture class="icon">
+        <!-- <picture class="icon">
         <img src="images/weatherWep.webp" alt="weathericon">
-        </picture>
-        <p>Current Temperature is <span id="temp">45</span>&deg;</p>
-        <p>Current wind speed <span id="speed">60</span>mph</p>
+        </picture> -->
+        <figure><img src="https://openweathermap.org/img/w/04n.png" alt="" id="weathericon" /> 
+        <figcaption>Today's weather</figcaption></figure>
+        <p>The current temperature in Accra,Ghana is <span id="temp"></span> &deg;</p>
+        <p>Current wind speed <span id="speed"></span>mph</p>
+        <!-- <p>The current conditions icon path is "<span id="icon-src"></span>"</p> -->
         <p id="chill">message</p>
-        <!-- <figure>
-        <img src="images/weather.jpeg" alt="weather widget"/>
-        </figure> -->
     </section>
     <section class="mainSection">
         <h2>Want to Join ?</h2>
@@ -109,6 +109,8 @@
     </figure>
     </section>
     </div>
+
+    <input type="hidden" id="custId" name="hiddenmgs" value="">
 </main>
    
 <!-- FOOTER HERE -->  
