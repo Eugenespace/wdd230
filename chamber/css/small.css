@@ -422,7 +422,7 @@ section.directory1 img{
 
 .card__directory img {
 	width: 100%;
-	height: 200px;
+	height: 100px;
 	padding-bottom: 1rem;
 }
 .hidden {
@@ -459,4 +459,37 @@ div.list-icons {
 .view-active {
 	background-color: var(--accent2-color);
 	color: var(--secondary-color);
+}
+/*Contact Page*/
+
+div.contactPage{
+	display: block;
+	margin: 0px;
+	text-align: left;
+	border-style: dotted;
+	border-width: 4px;
+	margin-top:10px;
+	background-color: antiquewhite;
+	padding: 10px;
+	line-height: 1.5;
+}
+fieldset.formField{
+	display:grid;
+	grid-template-columns: 1fr;
+	padding:20px;
+}
+div.tnkU{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	/* grid-template-rows: 1fr 1fr ; */
+
+}
+div.tnkU p {
+	/* grid-column: 2/3;
+	grid-row:2/3; */
+}
+div.tnkU img{
+	border-style: groove;
+	border-radius: 4px;
+	box-shadow: #555;
 }
