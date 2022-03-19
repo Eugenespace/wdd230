@@ -7,7 +7,8 @@
             "desc":"In 1931, Accra Brewery Limited (ABL), first registered in Switzerland as Overseas Breweries Limited, was built in Adabraka, becoming West Africa's first brewery.",
             "phone":"030 268 8853",
             "website":"https://accrabrewery.com.gh/",
-            "imageUrl":"images/accra_brewery.webp"
+            "imageUrl":"images/accra_brewery.webp",
+            "level":"vip"
              },
              
              {
@@ -17,7 +18,8 @@
                "desc":"MassTrack is a leading fleet management solution designer and is committed to providing its clients with innovative and affordable fleet management solutions",
                "phone":"0206485957",
                "website":"http://www.masstracktech.com",
-               "imageUrl":"images/masstrack.webp"
+               "imageUrl":"images/masstrack.webp",
+               "level":"platinum"
              },
              {
                "name":"Palace Shopping Mall",
@@ -25,7 +27,8 @@
                "desc":"Group of shops where you can buy wide range of products",
                "phone":"0302672838",
                "website":"0302672838",
-               "imageUrl":"images/palacemall.webp"
+               "imageUrl":"images/palacemall.webp",
+               "level":"silver"
             },
             {
                "name":"Max Mart Shopping Centre",
@@ -33,7 +36,8 @@
                "desc":"Mall for buying variety of goods",
                "phone":"+233 (303) 302781",
                "website":"http://www.maxmartghana.com",
-               "imageUrl":"images/maxmart.webp"
+               "imageUrl":"images/maxmart.webp",
+               "level":"vip"
             },
           {
                "name":"Buy right",
@@ -41,7 +45,8 @@
                "desc":"Helps with buying and selling of products.",
                "phone":"1238884444",
                "website":"https://www.buyryt.com/",
-               "imageUrl":"images/buyryt.webp"
+               "imageUrl":"images/buyryt.webp",
+               "level":"silver"
             },
           {
                "name":"The Ghanaian Standard",
@@ -49,7 +54,8 @@
                "desc":"Brings you  accurate breaking news, headlines and lifestyle stories.",
                "phone":"0550919202",
                "website":"https://www.ghstandard.com/",
-               "imageUrl":"images/standard.webp"
+               "imageUrl":"images/standard.webp",
+               "level":"vip"
             },
           {
                "name":"Artist Alliance Gallery",
@@ -57,7 +63,8 @@
                "desc":"Artists Alliance Gallery is a marketplace for comtemporary African Art collectors and Enthusiants shopping for authencity and originality.",
                "phone":"+233 21762576",
                "website":"http://www.artistsallianz.com/",
-               "imageUrl":"images/alliance.webp"
+               "imageUrl":"images/alliance.webp",
+               "level":"silver"
             },
             {
               "name":"Herschel Gallery",
@@ -65,7 +72,9 @@
               "desc":"Herschel Gallery has over the past two years helped develop and market up and coming artists and craftsmen who have shown potential and commitment in their work.",
               "phone":"0248956388",
               "website":"http://www.herschelgallery.com/",
-              "imageUrl":"images/harimage.webp"
+              "imageUrl":"images/harimage.webp",
+              "level":"platinum"
+
            },
            {
                "name":"Touch of Bronze Ghana Limited ",
@@ -73,7 +82,8 @@
                "desc":"Unique Cold cast Bronze, Brass, copper and Aluminium art pieces",
                "phone":"030 250 1144",
                "website":"http://www.touchofbronze.com/",
-               "imageUrl":"images/touchofbronze.webp"
+               "imageUrl":"images/touchofbronze.webp",
+               "level":"vip"
             },
             {
               "name":"BlackPixel Gh",
@@ -81,7 +91,8 @@
               "desc":"Black Pixels Gh has been established as a Graphic Designing, branding/ Advertising and Photography",
               "phone":"0208001033",
               "website":"www.blackpixelsgh.com",
-              "imageUrl":"images/blackpixel.webp"
+              "imageUrl":"images/blackpixel.webp",
+              "level":"platinum"
            },
            {
             "name":"International travel exchange",
@@ -89,7 +100,8 @@
             "desc":"International Travel Exchange, (ITE) is a USA travel company with offices in New York and Accra Ghana",
             "phone":"0242254292",
             "website":"http://www.flyite.com/",
-            "imageUrl":"images/internationtravelexchange.webp"
+            "imageUrl":"images/internationtravelexchange.webp",
+            "level":"silver"
          },
          {
           "name":"African Art Products",
@@ -97,7 +109,8 @@
           "desc":"Unique ceramics for the global market",
           "phone":"+41 22 7385769",
           "website":"https://www.africanartproducts.com/",
-          "imageUrl":"images/africanarts.webp"
+          "imageUrl":"images/africanarts.webp",
+          "level":"vip"
        }
       
         ]

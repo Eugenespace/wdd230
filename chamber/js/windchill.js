@@ -12,7 +12,7 @@ if (tempNumber<=50 && speedNumber>3){
     document.getElementById("chill").textContent = "wind chill is "+windchill+"\xB0F";
 
 } else{
-document.getElementById("chill").textContent = "No windchill today"
+document.getElementById("chill").textContent = "Windchill: N/A"
 }
 
 

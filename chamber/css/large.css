@@ -1,4 +1,6 @@
 @media only screen and (min-width: 64rem) {
+
+	
 	nav ul li a {
 		padding: 0.5rem 1rem;
 	}
@@ -6,21 +8,13 @@
 	.wrapper {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows: 0.5fr 0.5fr 0.5fr;
 	}
 
 	main section.mainSection img {
 		width: 100%;
 		height: auto;
 	}
-
-	/* section:nth-child(1){
-        
-        grid-column:2/4 ;
-        grid-row: 1/3;
-      
-    } */
-
+	
 	section.hero {
 		grid-column: 2/4;
 		grid-row: 1/3;
