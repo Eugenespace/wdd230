@@ -492,5 +492,5 @@ div.tnkU{
 div.tnkU img{
 	border-style: groove;
 	border-radius: 4px;
-	box-shadow: #555;
+	/* box-shadow: #555; */
 }

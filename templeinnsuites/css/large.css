@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1028px) {
+
+    header ul.navlinks{
+        display: flex;
+        
+        text-decoration: none;
+        list-style: none;
+        padding: .8rem 0;
+       
+      }
+      
+}
